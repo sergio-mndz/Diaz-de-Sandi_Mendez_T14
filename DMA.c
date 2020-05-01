@@ -14,8 +14,6 @@
 #define DMA_CH0 (0x01u)
 #define DMA_SOURCE_MUX (63u)
 
-/** defines source data space */
-uint16_t g_data_source[ARRAY_SIZE] = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16};
 /** defines destination data space */
 uint16_t g_data_desti[4*ARRAY_SIZE];
 
