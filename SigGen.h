@@ -11,8 +11,9 @@
 #include <stdint.h>
 #include "bits.h"
 
-/** Complete waveform size */
+/** Total of waveform points */
 #define MAX 100
+
 /** Sampling time for 5Hz signals */
 #define Delay_2ms  0.0004
 
